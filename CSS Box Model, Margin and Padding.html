@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model, Margin and Padding</title>
+    <style>
+        body{
+            background-color: #555;
+        }
+        *{
+
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+        }
+        fieldset{
+            background-color: rgb(202, 221, 238);
+            margin: 22px 33px;
+        }
+        .container{
+            background-color: rgb(115, 207, 250);
+            border: 2px solid rgb(125, 125, 224);
+            /* we can set margin like this for which we used br tag in past */
+            margin: 14px 19px;
+            /* we can set pdding for top bottom left and right like this */
+            padding:15px 30px ; 
+            /* padding/margin: top right bottom left */
+            /* padding/margin: y(top/bottom) x (right/left) */
+            border-radius: 23px;
+            height: 1in;
+            width: 6in;
+        }
+        fieldset{
+            border:2px solid  rgb(15, 70, 70);
+        }
+        #first{
+            color: whitesmoke;
+            padding: 0.3em;
+        }
+         
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend> CSS Box Model, Margin and Padding </legend>
+        <div class="container">
+    <h4>This is first heading </h4>
+    <p id="first">This is first paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempora, vel eligendi earum esse iste.sns</p> </div>  
+<div class="container">
+    <h4>This is second heading </h4>
+    <p id="second">This is second paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempora, vel eligendi earum esse iste.sns</p>
+</div> 
+<div class="container">
+    <h4>This is third heading </h4>
+    <p id="third">This is third paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempora, vel eligendi earum esse iste.sns</p>
+</div> 
+<div class="container">
+    <h4>This is fourth heading </h4>
+    <p id="fourth">This is fourth paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempora, vel eligendi earum esse iste.sns</p>
+</div> 
+</fieldset>
+</body>
+</html>

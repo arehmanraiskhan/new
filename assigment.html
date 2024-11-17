@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV and Contact form</title>
+    <style>
+        #id {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .title {
+            background-color: #ed5904;
+            color: #ffffff;
+        }
+
+        .title>h3 {
+            opacity: 70%;
+            font-weight: lighter;
+        }
+
+        .summary {
+            width: 500px;
+        }
+
+        .work-history>h4 {
+            display: inline;
+        }
+
+        .internship {
+            width: 500px;
+        }
+
+        .heading-2 {
+            color: #ed5904;
+        }
+       
+        #img{
+            height: 255px;
+        }
+        .education>.matriculation {
+            display: inline;
+        }
+
+        .education>.intermediate {
+            display: inline;
+        }
+
+        .language {
+            display: inline;
+        }
+
+        .star {
+            color: #ed5904;
+        }
+
+        .light-star {
+            color: #ed5904a6;
+        }
+
+        .contact-form {
+            background-color: #d2bd46;
+            color: #077822;
+            width: max-content;
+            margin: 150px;
+        }
+
+        .form-heading {
+            text-align: center;
+        }
+
+        .form-data {
+            margin-left: 20px;
+        }
+
+        #country,
+        input {
+            width: 600px;
+        }
+
+        #working-days{
+            width: 1200px;
+        }
+        #company-name{
+            width: 1200px;
+        }
+        #submit{
+            margin-right: 150px;
+            margin-left: 250px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cv">
+        <h1 id="id">Name : Muhammad Abdul Rehman Khan
+            <br />
+            Roll No. : WMA-220889
+        </h1>
+        <!-- title -->
+        <div class="title">
+            <h1>Muhammad Abdul Rehman Khan</h1>
+            <h3>Web Designer</h3>
+        </div>
+        <!-- summary -->
+        <div class="summary">
+            <h2 class="heading-2">Summary</h2>
+            <p>I'm exited to apply for the junior Web Designer Position at your steemed organization. As a recent
+                certified
+                from Abc Institute,which is consistently ranked as top Institute for providing best IT Education. </p>
+        </div>
+        <!-- work history -->
+        <div class="work-history">
+            <h2 class="heading-2">
+                Work History
+            </h2>
+            <hr />
+            <span>2023-8</span>
+            <h4>Inernee Web Designer at Abc Company</h4>
+            <ul class="internship">
+                <li> During my web developer and intermediate studies ,I worked as internee Web designer at Abc
+                    Company.As
+                    an intern,I enhance my skills and gained new professional skills such as communication, team-work
+                    and
+                    problem solving.
+                </li>
+                <li>
+                    As an intern, the individual likely to had multiple tasks and deadline to manage simultaneously.This
+                    experience helped in develop strong time management skills which are crucial for success in the
+                    career
+                    of developer.
+                </li>
+            </ul>
+            <!-- education -->
+        </div>
+        <div class="education">
+            <h2 class="heading-2">Education</h2>
+            <hr />
+            <span>2021-23</span>
+            <h4 class="matriculation">SSC Part-I & II from SOS Hermann Gmiener Higher Secondary School Khi.</h4>
+            <br /> <br />
+            <span>2023-25</span>
+            <h4 class="intermediate">
+                HSC Part I & II from Govt. Degree Science Commerce College Gulshan-e-Iqbal Block-7.
+            </h4>
+        </div>
+        <!-- personal info -->
+        <div class="personal-info">
+            <img src="../images/002.jpg" alt="img" id="img">
+            <h2 class="heading-2">Personal Info.</h2>
+            <hr />
+            <h3 class="address">Address</h3>
+            <address class="home">House # 37 M-A Ext. Model Colony Khi.</address>
+            <h3 class="contact">Phone</h3>
+            <a href=“tel:+92-312-3576-450”>+92-312-3576-450</a>
+            <h3 class="email">Email</h3>
+            <a href="mailto: rehmank3450@gmail.com">rehmank3450@gmail.com</a>
+            <h3 class="d-o-b">Date Of Birth</h3>
+            03-January-2006
+            </p>
+            <h3 class="marital-status">Marital Status</h3>
+            <p>Single</p>
+            <h3 class="citizanship">Citizan Ship</h3>
+            <p>Pakistani</p>
+        </div>
+        <!-- skills -->
+        <div class="skills">
+            <h2 class="heading-2">
+                Skills
+            </h2>
+            <hr />
+            <ul>
+                <li>Problem Solving</li>
+                <li>Team management</li>
+                <li>Average communication</li>
+                <li>Good listener & Speaker</li>
+            </ul>
+        </div>
+        <!-- languages -->
+        <div class="languages">
+            <h2 class="heading-2">Languages</h2>
+            <hr />
+            <div class="urdu">
+                <p class="language">Native:Urdu</p> <span class="star">&starf;&starf;&starf;&starf;&starf;</span>
+            </div>
+            <div class="english">
+                <p class="language">English</p>
+                <span class="star">&starf;&starf;&starf;&starf;</span>
+                <span class="light-star">&starf;</span>
+            </div>
+        </div>
+    </div>
+    <!-- contact info form  -->
+    <div class="contact-form">
+        <h1 class="form-heading">Supplier Contact Info Form Template</h1>
+        <div class="form-data">
+            <!-- company-name -->
+            <div class="company-name"><label for="company-name">Company Name:</label></div>
+            <br />
+            <div class="company-name"><input type="text" id="company-name"></div>
+            <br />
+            <!-- contact-name -->
+            <div class="contact-name"> <label for="fname">Contact name:</label></div>
+            <br />
+            <div class="contact-name"><input type="text" name="fname" id="fname" placeholder="First name">
+                <input type="text" name="lname" id="lname" placeholder="Last name">
+            </div>
+            <br />
+            <!-- phone-number -->
+            <div class="phone-number"><label for="phone-number">Phone number:</label></div>
+            <br />
+            <div class="phone-number"><input type="tel" placeholder="## ### ### ####" id="phone-number"
+                    name="phone-number"></div>
+            <br />
+            <!-- email-address -->
+            <div class="email-address"><label for="email">Email:</label></div>
+            <br />
+            <div class="email"><input type="email" name="email" id="email"></div>
+            <br />
+            <!-- postal-address -->
+            <div class="postal-address"><label for="postal-address">Postal Address:</label></div>
+            <br />
+            <div class="postal-address"><input type="text" name="postal-address" id="postal-address"
+                    placeholder="Street Address"></div>
+            <br />
+            <div class="postal-address"><input type="text" name="postal-address" id="street-address-2"
+                    placeholder="Street Address Line 2"></div>
+            <br />
+            <div class="city-region">
+                <input type="text" name="city" id="city" placeholder="City">
+                <input type="text" name="region" id="region" placeholder="Region">
+            </div>
+            <br />
+            <input type="number" name="postal" id="postal" placeholder="Postal/Zip Code">
+            <span class="country">
+                <select name="country" id="country">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Russia">Russia</option>
+                    <option value="China">China</option>
+                    <option value="Japan">Japan</option>
+                </select>
+            </span>
+            <br />
+            <br />
+            <!-- working-days -->
+            <div class="working-days"><label for="working-days">Working days:</label></div>
+            <br />
+            <input type="text" name="working-days" id="working-days">
+            <br />
+            <br />
+            <input type="submit" name="submit" id="submit">
+        </div>
+    </div>
+</body>
+
+</html>

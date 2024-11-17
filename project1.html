@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X GYM</title>
+  <style>
+   body{
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url("/images/bg_3.jpg");
+      font-weight: bolder;
+    }
+
+    .left {
+      position: absolute;
+      left: 34px;
+      display: inline-block;
+      top: 21px;
+    }
+
+    .mid {
+      /* border: 2px solid rgb(0, 247, 255); */
+      display: block;
+      width: 36%;
+      margin: 20px auto;
+    
+    }
+
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 21px;
+      display: inline-block;
+    }
+
+    .navbar {
+      display: inline-block;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+
+    .navbar li {
+      display: inline-block;
+    }
+
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 34px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+      text-decoration: underline;
+      color: rgb(159, 203, 242);
+    }
+
+    .btn {
+      margin: 0px 9px;
+      color: white;
+      background-color: black;
+      padding: 17px 24px;
+      border-radius: 10px;
+      font-size: 15px;
+      cursor: pointer;
+      font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+        sans-serif;
+    }
+
+    .btn:hover {
+      background-color: rgb(54, 52, 52);
+    }
+
+    .container {
+      border: 2px solid rgb(255, 255, 255);
+      margin: 75px;
+      padding: 106px 80px;
+      width: 33%;
+      border-radius: 15px;
+    }
+
+    .form-group input {
+      text-align: center;
+      display: block;
+      width: 475px;
+      padding: 10px;
+      border: 3px solid black;
+      margin: 3px auto;
+      font-size: large;
+    }
+
+    .container h1 {
+      text-align: center;
+    }
+
+    .container button {
+      display: block;
+      width: 23%;
+      margin: auto;
+      width: 501px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="left">
+      <img src="/images/logo.png" alt="" />
+    </div>
+
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Fitness Calculator</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="right">
+      <button class="btn">
+        Call Us Now
+      </button>
+
+      <button class="btn">
+        Register
+      </button>
+    </div>
+  </header>
+  <div class="container">
+    <h1>JOIN THE BEST GYM OF KARACHI NOW</h1>
+    <form action="noaction.php">
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+      </div>
+
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Age">
+      </div>
+
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Gender">
+      </div>
+
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Locality">
+      </div>
+      <button class="btn">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>

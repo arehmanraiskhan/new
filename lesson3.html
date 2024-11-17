@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+
+<body>
+    <script>
+        var car = {
+            color: "red",
+            model: "2020",
+            price: "4M"
+        }
+        console.log(car);
+
+     var convertedStringFromObject  = JSON.stringify(car);
+     
+
+     var convertedObjFromString = JSON.parse(convertedStringFromObject);
+     
+   
+     console.log(car);
+     console.log(convertedStringFromObject);
+     console.log(convertedObjFromString)
+
+    </script>
+</body>
+
+</html>

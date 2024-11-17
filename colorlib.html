@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ColorLib</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+</head>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap");
+
+  header {
+    background-image: url("images/h1_hero.png");
+    /* min-height: 500px; */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .join {
+    font-family: "Josefin Sans" sans-serif;
+    padding: 12px 36px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .container {
+    color: white;
+  }
+
+  p {
+    font-family: "Josefin Sans" sans-serif;
+    font-size: 14px;
+  }
+
+  .header-content {
+    position: absolute;
+    top: 30%;
+    font-size: xx-large;
+    font-weight: 1000px;
+    width: 300px;
+    height: 100px;
+  }
+
+  nav.navbar {
+    background-color: transparent !important;
+  }
+
+  nav .nav-link {
+    color: #fff;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-weight: 600;
+  }
+
+  nav .nav-link.active {
+    color: #fff !important;
+  }
+
+  img.navbar-brand {
+    padding-left: 24px;
+  }
+
+  li a.login {
+    border: 1px solid white;
+    padding: 12px 40px;
+  }
+
+  .servicesarea {
+    margin-top: -100px;
+  }
+
+  .single-services {
+    background: #fff;
+    color: #4255a4;
+    border-radius: 20px;
+    display: flex;
+    padding: 29px 40px;
+  }
+
+  .servicesarea .single-services .features-caption p {
+    font-size: 17px;
+  }
+
+  .features-icon img {
+    vertical-align: center;
+    border-style: none;
+    padding-right: 20px;
+  }
+
+  h2 {
+    color: #4255a4;
+  }
+</style>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img class="navbar-brand" src="images/logo.png" href="#"></img>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <button type="button" class="btn btn-warning join">
+                  Join
+                </button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link login">Login</a>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-lg-7 col-md-12">
+          <div class="header-content">
+            <h2>Online learning platform</h2>
+            <p>
+              Build skills with courses,certificates and degrees online
+              world-class universities and companies
+            </p>
+            <button type="button" class="btn btn-warning join">
+              Join For Free
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header section compeleted -->
+  <div class="servicesarea">
+    <div class="container ">
+      <div class="row justify-content-sm-center">
+        <div class="col-lg-4 col-md-6 col-sm-8">
+          <div class="single-services mb-30">
+            <div class="features-icon">
+              <img src="images/icon1.svg" alt="">
+            </div>
+            <div class="features-caption">
+              <h3>60+ UX courses</h3>
+              <p>The automated process all your website tasks.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-8">
+          <div class="single-services mb-30">
+            <div class="features-icon">
+              <img src="images/icon2.svg" alt="">
+            </div>
+            <div class="features-caption">
+              <h3>Expert instructors</h3>
+              <p>The automated process all your website tasks.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-8">
+          <div class="single-services mb-30">
+            <div class="features-icon">
+              <img src="images/icon3.svg" alt="">
+            </div>
+            <div class="features-caption">
+              <h3>Life time access</h3>
+              <p>The automated process all your website tasks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- servicesarea section compeleted -->
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-7 col-lg-8">
+        <div class="section-tittle text-center mb-55">
+          <h2>Our featured courses</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

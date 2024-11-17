@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSEUDO SELECTORS AND MODE DESIGNING</title>
+    <style>
+.container{
+    border: 2px solid rgb(37, 30, 30);
+    background-color: rgb(197, 243, 228);
+    padding: 34px;
+    margin: 34px auto ;
+    width: 666px;
+}
+.btn{
+    background-color: aqua;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 4px;
+}
+#readmore{
+    /* text-decoration: none; */
+    color: rgb(7, 0, 0);
+}
+#readmore:hover{
+    color: rgb(0, 0, 0);
+    background-color:antiquewhite ;
+}
+#readmore:visited{
+    background-color: yellow;
+}
+#readmore:active{
+    background-color: rgb(194, 194, 243);
+}
+#contactus{
+    text-decoration: underline;
+}
+#contactus:hover{
+    background-color: white;
+    border: 2px solid red;
+}
+
+#contactus:active{
+    background-color: aqua;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container"id="cont1">
+    <h3>This is my heading</h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eos ipsam doloremque, eaque temporibus sequi earum eveniet in a voluptatibus aliquid blanditiis quaerat ipsa aut libero quo, provident obcaecati quisquam. Illo voluptate quae amet!
+    </p>
+    <a href="https://yahoo.com" id="readmore" class="btn" target="blank">Read more...</a>
+    <button class="btn" id="contactus">Contact us:</button>
+    </div>
+</body>
+</html>

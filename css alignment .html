@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>CSS Alignment</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      #mainheading {
+        border: 2px solid rgb(18, 18, 56);
+        width: fit-content;
+        height: fit-content;
+        font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+        background-color: burlywood;
+        color: rgb(15, 31, 77);
+      }
+      u {
+        color: rgb(15, 31, 77);
+      }
+      .container {
+        width: 900px;
+        border: 3px solid purple;
+        background-color: burlywood;
+        margin: auto 33px;
+      }
+      .items {
+        border: 3px solid grey;
+        margin: 12px 3px;
+        padding: 12px 3px;
+        background-color: beige;
+      }
+      #fruits {
+        float: left;
+        width: 48%;
+      }
+      #computer {
+        float: right;
+        width: 48%;
+      }
+      #stationary {
+        clear: both;
+        width: 99.3%;
+      }
+      h5,
+      h3,
+      p {
+        text-align: center;
+      }
+      #fieldset1 {
+        width: fit-content;
+        margin: auto;
+        background-color: rgb(245, 237, 228);
+      }
+      #legend1 {
+        margin: auto;
+      }
+      #welcome {
+        margin-bottom: 0.5in;
+      }
+      #review {
+        background-color: antiquewhite;
+        color: rgb(18, 18, 56);
+      }
+      #legend2 {
+        border: 1px solid darkgreen;
+        background-color: aliceblue;
+      }
+      #hearabout {
+        background-color: aliceblue;
+      }
+      #feedback {
+        background-color: aliceblue;
+      }
+      #thanks {
+        margin: center;
+        padding: center;
+        color: rgb(16, 46, 2);
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset id="feildset1">
+      <legend id="legend1">
+        <u id="U"><h3 id="mainheading">M.A.R.K. STORE</h3></u>
+      </legend>
+      <h4 id="welcome"><u id="welcome">WELCOME TO MY STORE:</u></h4>
+
+      <div class="container">
+        <div id="fruits" class="items">
+          <u><h5>FRUITS</h5></u>
+          <p id="fruitpara" class="para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus minima perferendis suscipit, corrupti dolores deleniti
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
+            consequuntur commodi, aspernatur et perspiciatis hic? .
+          </p>
+        </div>
+
+        <div id="computer" class="items">
+          <u><h5>COMPUTER</h5></u>
+          <p id="computerpara" class="para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus minima perferendis suscipit, corrupti dolores deleniti
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+            illum, tempore aperiam molestias fugiat voluptatem. .
+          </p>
+        </div>
+
+        <div id="stationary" class="items">
+          <u><h5>STATIONARY</h5></u>
+          <p id="stationarypara" class="para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus minima perferendis suscipit, corrupti dolores deleniti.
+          </p>
+        </div>
+        <div id="glasses" class="items">
+          <u><h5>GLASSES</h5></u>
+          <p id="glassespara" class="para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus minima perferendis suscipit, corrupti dolores deleniti.
+          </p>
+        </div>
+      </div>
+      <br />
+      <form action="tut1.css"></form>
+      <label for="myemail" id="contacts">For further details:</label> <br />
+
+      <label for="contactnumber">Contact:</label>
+      <a href="contactnumber" target="blank">+923123456789</a> <br />
+      <label for="email">Email:</label>
+      <a href="email" target="blank">mystore@mark.com</a>
+    </fieldset>
+    <fieldset id="review">
+      <legend id="legend2">Your Review</legend>
+      <label for="referarr">How did you hear about us?</label> <br />
+      <select id="hearabout">
+        <option value="Family/friends">Family/friends</option>
+        <option value="Family/friends">Family/friends</option>
+        <option value="Family/friends">Family/friends</option>
+        <option value="Family/friends">Family/friends</option>
+        <option value="Family/friends">Family/friends</option>
+      </select>
+      <br />
+      <br />
+      <label for="visitagain" id="visit again"
+        >Wouldyou like to visit again?</label
+      >
+      <br />
+      <label for="Yes:">Yes:</label>
+      <input type="radio" />
+      <label for="May be:">May be:</label>
+      <input type="radio" />
+      <label for="No:">No:</label>
+      <input type="radio" />
+      <br />
+      <br />
+      <label for="feedback">Give a feedback:</label> <br /><br />
+      <textarea name="" id="feedback" cols="30" rows="10"></textarea>
+      <input type="submit" value="Submit review" /> <br />
+      <br />
+      <span id="thanks"
+        >Thanks for visiting. <br />
+        See you again....
+      </span>
+    </fieldset>
+  </body>
+</html>
